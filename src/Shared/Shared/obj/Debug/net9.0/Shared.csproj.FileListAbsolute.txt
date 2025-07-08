@@ -1,0 +1,14 @@
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/bin/Debug/net9.0/Shared.deps.json
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/bin/Debug/net9.0/Shared.runtimeconfig.json
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/bin/Debug/net9.0/Shared.dll
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/bin/Debug/net9.0/Shared.pdb
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.csproj.AssemblyReference.cache
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.AssemblyInfoInputs.cache
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.AssemblyInfo.cs
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.csproj.CoreCompileInputs.cache
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.dll
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/refint/Shared.dll
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.pdb
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/Shared.genruntimeconfig.cache
+/Users/miguelbarreto/Udemy/net-modulith-bootcamp/eshop-modular-monolith/src/Shared/Shared/obj/Debug/net9.0/ref/Shared.dll
