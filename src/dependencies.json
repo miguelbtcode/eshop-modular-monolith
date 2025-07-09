@@ -1,0 +1,1148 @@
+{
+  "version": 1,
+  "parameters": "--include-transitive",
+  "projects": [
+    {
+      "path": "Bootstrapper/Api/Api.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "topLevelPackages": [
+            {
+              "id": "Microsoft.CodeAnalysis.Common",
+              "requestedVersion": "4.11.0",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+              "requestedVersion": "4.11.0",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Design",
+              "requestedVersion": "9.0.4",
+              "resolvedVersion": "9.0.4"
+            }
+          ],
+          "transitivePackages": [
+            {
+              "id": "Carter",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "Carter.Analyzers",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "FluentValidation.AspNetCore",
+              "resolvedVersion": "11.3.1"
+            },
+            {
+              "id": "FluentValidation.DependencyInjectionExtensions",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "Humanizer.Core",
+              "resolvedVersion": "2.14.1"
+            },
+            {
+              "id": "Mapster",
+              "resolvedVersion": "7.4.2-pre02"
+            },
+            {
+              "id": "Mapster.Core",
+              "resolvedVersion": "1.2.3-pre02"
+            },
+            {
+              "id": "MediatR",
+              "resolvedVersion": "13.0.0"
+            },
+            {
+              "id": "MediatR.Contracts",
+              "resolvedVersion": "2.0.1"
+            },
+            {
+              "id": "Microsoft.Build.Framework",
+              "resolvedVersion": "17.8.3"
+            },
+            {
+              "id": "Microsoft.Build.Locator",
+              "resolvedVersion": "1.7.8"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Analyzers",
+              "resolvedVersion": "3.3.4"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.Common",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Analyzers",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Relational",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Tools",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Memory",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Configuration.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyModel",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Options",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Primitives",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Abstractions",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.JsonWebTokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Logging",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Tokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Mono.TextTemplating",
+              "resolvedVersion": "3.0.0"
+            },
+            {
+              "id": "Npgsql",
+              "resolvedVersion": "9.0.3"
+            },
+            {
+              "id": "Npgsql.EntityFrameworkCore.PostgreSQL",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.CodeDom",
+              "resolvedVersion": "6.0.0"
+            },
+            {
+              "id": "System.Collections.Immutable",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition.AttributedModel",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition.Convention",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition.Hosting",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition.Runtime",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition.TypedParts",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Reflection.Metadata",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.Threading.Channels",
+              "resolvedVersion": "7.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Modules/Basket/Basket/Basket.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "transitivePackages": [
+            {
+              "id": "Carter",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "Carter.Analyzers",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "FluentValidation.AspNetCore",
+              "resolvedVersion": "11.3.1"
+            },
+            {
+              "id": "FluentValidation.DependencyInjectionExtensions",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "Humanizer.Core",
+              "resolvedVersion": "2.14.1"
+            },
+            {
+              "id": "Mapster",
+              "resolvedVersion": "7.4.2-pre02"
+            },
+            {
+              "id": "Mapster.Core",
+              "resolvedVersion": "1.2.3-pre02"
+            },
+            {
+              "id": "MediatR",
+              "resolvedVersion": "13.0.0"
+            },
+            {
+              "id": "MediatR.Contracts",
+              "resolvedVersion": "2.0.1"
+            },
+            {
+              "id": "Microsoft.Bcl.AsyncInterfaces",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "Microsoft.Build.Framework",
+              "resolvedVersion": "17.8.3"
+            },
+            {
+              "id": "Microsoft.Build.Locator",
+              "resolvedVersion": "1.7.8"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Analyzers",
+              "resolvedVersion": "3.3.4"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Common",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.Common",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Analyzers",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Design",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Relational",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Tools",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Memory",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Configuration.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyModel",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Options",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Primitives",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Abstractions",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.JsonWebTokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Logging",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Tokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Mono.TextTemplating",
+              "resolvedVersion": "3.0.0"
+            },
+            {
+              "id": "Npgsql",
+              "resolvedVersion": "9.0.3"
+            },
+            {
+              "id": "Npgsql.EntityFrameworkCore.PostgreSQL",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.CodeDom",
+              "resolvedVersion": "6.0.0"
+            },
+            {
+              "id": "System.Collections.Immutable",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.AttributedModel",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Convention",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Hosting",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Runtime",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.TypedParts",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Reflection.Metadata",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.Threading.Channels",
+              "resolvedVersion": "7.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Modules/Catalog/Catalog/Catalog.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "transitivePackages": [
+            {
+              "id": "Carter",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "Carter.Analyzers",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "FluentValidation.AspNetCore",
+              "resolvedVersion": "11.3.1"
+            },
+            {
+              "id": "FluentValidation.DependencyInjectionExtensions",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "Humanizer.Core",
+              "resolvedVersion": "2.14.1"
+            },
+            {
+              "id": "Mapster",
+              "resolvedVersion": "7.4.2-pre02"
+            },
+            {
+              "id": "Mapster.Core",
+              "resolvedVersion": "1.2.3-pre02"
+            },
+            {
+              "id": "MediatR",
+              "resolvedVersion": "13.0.0"
+            },
+            {
+              "id": "MediatR.Contracts",
+              "resolvedVersion": "2.0.1"
+            },
+            {
+              "id": "Microsoft.Bcl.AsyncInterfaces",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "Microsoft.Build.Framework",
+              "resolvedVersion": "17.8.3"
+            },
+            {
+              "id": "Microsoft.Build.Locator",
+              "resolvedVersion": "1.7.8"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Analyzers",
+              "resolvedVersion": "3.3.4"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Common",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.Common",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Analyzers",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Design",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Relational",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Tools",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Memory",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Configuration.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyModel",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Options",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Primitives",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Abstractions",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.JsonWebTokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Logging",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Tokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Mono.TextTemplating",
+              "resolvedVersion": "3.0.0"
+            },
+            {
+              "id": "Npgsql",
+              "resolvedVersion": "9.0.3"
+            },
+            {
+              "id": "Npgsql.EntityFrameworkCore.PostgreSQL",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.CodeDom",
+              "resolvedVersion": "6.0.0"
+            },
+            {
+              "id": "System.Collections.Immutable",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.AttributedModel",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Convention",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Hosting",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Runtime",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.TypedParts",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Reflection.Metadata",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.Threading.Channels",
+              "resolvedVersion": "7.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Modules/Ordering/Ordering/Ordering.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "transitivePackages": [
+            {
+              "id": "Carter",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "Carter.Analyzers",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "FluentValidation.AspNetCore",
+              "resolvedVersion": "11.3.1"
+            },
+            {
+              "id": "FluentValidation.DependencyInjectionExtensions",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "Humanizer.Core",
+              "resolvedVersion": "2.14.1"
+            },
+            {
+              "id": "Mapster",
+              "resolvedVersion": "7.4.2-pre02"
+            },
+            {
+              "id": "Mapster.Core",
+              "resolvedVersion": "1.2.3-pre02"
+            },
+            {
+              "id": "MediatR",
+              "resolvedVersion": "13.0.0"
+            },
+            {
+              "id": "MediatR.Contracts",
+              "resolvedVersion": "2.0.1"
+            },
+            {
+              "id": "Microsoft.Bcl.AsyncInterfaces",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "Microsoft.Build.Framework",
+              "resolvedVersion": "17.8.3"
+            },
+            {
+              "id": "Microsoft.Build.Locator",
+              "resolvedVersion": "1.7.8"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Analyzers",
+              "resolvedVersion": "3.3.4"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Common",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.Common",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Analyzers",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Design",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Relational",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Tools",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Memory",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Configuration.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyModel",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Options",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Primitives",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Abstractions",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.JsonWebTokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Logging",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Tokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Mono.TextTemplating",
+              "resolvedVersion": "3.0.0"
+            },
+            {
+              "id": "Npgsql",
+              "resolvedVersion": "9.0.3"
+            },
+            {
+              "id": "Npgsql.EntityFrameworkCore.PostgreSQL",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.CodeDom",
+              "resolvedVersion": "6.0.0"
+            },
+            {
+              "id": "System.Collections.Immutable",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.AttributedModel",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Convention",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Hosting",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Runtime",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.TypedParts",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Reflection.Metadata",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.Threading.Channels",
+              "resolvedVersion": "7.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Shared/Shared/Shared.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "topLevelPackages": [
+            {
+              "id": "Carter",
+              "requestedVersion": "9.0.0",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation.AspNetCore",
+              "requestedVersion": "11.3.1",
+              "resolvedVersion": "11.3.1"
+            },
+            {
+              "id": "Mapster",
+              "requestedVersion": "7.4.2-pre02",
+              "resolvedVersion": "7.4.2-pre02"
+            },
+            {
+              "id": "MediatR",
+              "requestedVersion": "13.0.0",
+              "resolvedVersion": "13.0.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore",
+              "requestedVersion": "9.0.4",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Tools",
+              "requestedVersion": "9.0.4",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Configuration.Abstractions",
+              "requestedVersion": "9.0.6",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "requestedVersion": "9.0.6",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Npgsql.EntityFrameworkCore.PostgreSQL",
+              "requestedVersion": "9.0.4",
+              "resolvedVersion": "9.0.4"
+            }
+          ],
+          "transitivePackages": [
+            {
+              "id": "Carter.Analyzers",
+              "resolvedVersion": "9.0.0"
+            },
+            {
+              "id": "FluentValidation",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "FluentValidation.DependencyInjectionExtensions",
+              "resolvedVersion": "11.11.0"
+            },
+            {
+              "id": "Humanizer.Core",
+              "resolvedVersion": "2.14.1"
+            },
+            {
+              "id": "Mapster.Core",
+              "resolvedVersion": "1.2.3-pre02"
+            },
+            {
+              "id": "MediatR.Contracts",
+              "resolvedVersion": "2.0.1"
+            },
+            {
+              "id": "Microsoft.Bcl.AsyncInterfaces",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "Microsoft.Build.Framework",
+              "resolvedVersion": "17.8.3"
+            },
+            {
+              "id": "Microsoft.Build.Locator",
+              "resolvedVersion": "1.7.8"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Analyzers",
+              "resolvedVersion": "3.3.4"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Common",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp",
+              "resolvedVersion": "4.11.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.Common",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+              "resolvedVersion": "4.8.0"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Analyzers",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Design",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.EntityFrameworkCore.Relational",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Caching.Memory",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyInjection",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.DependencyModel",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Options",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "Microsoft.Extensions.Primitives",
+              "resolvedVersion": "9.0.6"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Abstractions",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.JsonWebTokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Logging",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Microsoft.IdentityModel.Tokens",
+              "resolvedVersion": "8.0.1"
+            },
+            {
+              "id": "Mono.TextTemplating",
+              "resolvedVersion": "3.0.0"
+            },
+            {
+              "id": "Npgsql",
+              "resolvedVersion": "9.0.3"
+            },
+            {
+              "id": "System.CodeDom",
+              "resolvedVersion": "6.0.0"
+            },
+            {
+              "id": "System.Collections.Immutable",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Composition",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.AttributedModel",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Convention",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Hosting",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.Runtime",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Composition.TypedParts",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "7.0.0"
+            },
+            {
+              "id": "System.Reflection.Metadata",
+              "resolvedVersion": "8.0.0"
+            },
+            {
+              "id": "System.Text.Json",
+              "resolvedVersion": "9.0.4"
+            },
+            {
+              "id": "System.Threading.Channels",
+              "resolvedVersion": "7.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
