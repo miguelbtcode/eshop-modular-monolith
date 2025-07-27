@@ -17,7 +17,7 @@ internal class GetProductByIdHandler(CatalogDbContext dbContext)
             await dbContext
                 .Products.AsNoTracking()
                 .SingleOrDefaultAsync(p => p.Id == query.Id, cancellationToken: cancellationToken)
-            ?? throw new Exception($"Product with Id {query.Id} not found.");
+            ?? throw new ProductNotFoundException(query.Id);
 
         // Second: Map the product to ProductDto using Mapster
         var productDto = product.Adapt<ProductDto>();
